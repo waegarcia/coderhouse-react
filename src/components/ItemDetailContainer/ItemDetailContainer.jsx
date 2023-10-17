@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { pedirDatos } from "../../helpers/pedirDatos"
+import { getDatos } from "../../api/index"
 import { useParams } from "react-router-dom"
 import ItemDetail from "../ItemDetail/ItemDetail"
 
@@ -8,13 +8,11 @@ const ItemDetailContainer = () => {
     const [loading, setLoading] = useState(true)
 
     const { itemId } = useParams()
-    console.log(itemId)
-    console.log(item)
 
     useEffect(() => {
         setLoading(true)
 
-        pedirDatos()
+        getDatos()
             .then((data) => setItem(data.find((el) => el.id === Number(itemId))))
             .catch(err => console.log(err))
             .finally(() => setLoading(false))

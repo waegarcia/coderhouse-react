@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { useState } from 'react'
-import { pedirDatos } from '../../helpers/pedirDatos'
+import { getDatos } from '../../api/index'
 import ItemList from '../ItemList/ItemList'
 import { useParams } from 'react-router-dom'
 
@@ -10,11 +10,10 @@ export const ItemListContainer = () => {
     const [loading, setLoading] = useState(true)
 
     const { categoryId } = useParams()
-    console.log(categoryId)
 
     useEffect(() => {
         setLoading(true)
-        pedirDatos()
+        getDatos()
             .then((data) => {
                 if (!categoryId) {
                     setProductos(data)

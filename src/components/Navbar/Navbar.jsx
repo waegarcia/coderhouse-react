@@ -13,9 +13,9 @@ export const Navbar = () => {
 
                 <nav className="navbar">
                     <Link to='/' className="navbar__link">Home</Link>
-                    <Link to='/productos/verduleria' className="navbar__link">Verduleria</Link>
-                    <Link to='/productos/panaderia' className="navbar__link">Panaderia</Link>
-                    <Link to='/productos/carniceria' className="navbar__link">Carniceria</Link>
+                    <Link to='/productos/componentes' className="navbar__link">Componentes</Link>
+                    <Link to='/productos/equipos' className="navbar__link">Equipos</Link>
+                    <Link to='/productos/notebooks' className="navbar__link">Notebooks</Link>
                 </nav>
                 <CartWidget />
             </div>
