@@ -1,3 +1,4 @@
+import '../../styles/Navbar/_navbar.scss'
 import logo from '../../assets/compu-logo.png'
 import CartWidget from '../CartWidget/CartWidget'
 
@@ -6,7 +7,7 @@ export const Navbar = () => {
     return (
         <header className="header">
             <div className="header__container">
-                <img src={logo} className="logo" alt='logo' />
+                <img src={logo} className="logo__navbar" alt='logo' />
                 <span className="name">CHMR-STORE</span>
 
                 <nav className="navbar">

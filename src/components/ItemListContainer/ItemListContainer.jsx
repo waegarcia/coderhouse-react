@@ -1,3 +1,5 @@
+import '../../styles/ItemListContainer/_itemListContainer.scss'
+
 export const ItemListContainer = ({ greeting }) => {
 
     return (
