@@ -1,0 +1,16 @@
+.form {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 50px;
+    width: 50%;
+
+    .form__container {
+        background-color: white;
+        box-shadow: 2px 2px 5px 1px #a8a8a8;
+        width: 50%;
+        margin: 0 auto;
+        height: fit-content;
+        padding: 30px;
+    }
+}

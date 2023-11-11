@@ -7,7 +7,6 @@ const ItemList = ({ items }) => {
         <div>
             <h2 className="list__container">Productos</h2>
             <hr />
-
             <div className="row">
                 {items.map((prod) => <ItemCard item={prod} key={prod.id} />)}
             </div>

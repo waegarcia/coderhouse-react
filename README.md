@@ -1,8 +1,20 @@
 # Coderhouse ReactJs
 
+### Aplicacion que simula ser un e-commerce de productos para informatica
 Alumno: Walter Garcia. Comisión: 47230.
 
-Tecnologias utilizadas:
+## Tecnologias utilizadas:
+- Vite
+- React
+- React Router
+- Sass
+- Bootstrap
+- Formik
+- Yup
+- Firebase
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instrucciones:
+1. Clonar el repositorio.
+3. Ejecutar el comando npm install.
+4. Luego ejecutar el comando npm run dev.
+5. Abrir el browser en la url: http://localhost:5173/

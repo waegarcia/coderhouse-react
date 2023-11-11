@@ -1,3 +1,22 @@
 @import './Navbar/navbar.scss';
-@import './CartWidget/cartWidget.scss';
 @import './ItemList/itemList.scss';
+@import './CartWidget/cartWidget.scss';
+@import './ItemCard/itemCard.scss';
+@import './ItemDetail/ItemDetail.scss';
+@import './Checkout/checkout.scss';
+
+$orange: rgb(238, 82, 9);
+$rojo: rgb(255, 0, 0);
+
+.color-texto {
+    color: $orange;
+}
+
+.color-texto-error {
+    color: $rojo;
+}
+
+.color-boton {
+    background-color: $orange;
+    border-color: $orange;
+}
