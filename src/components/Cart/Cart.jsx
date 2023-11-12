@@ -26,7 +26,7 @@ const Cart = () => {
                 cart.map((item) => (
                     <div key={item.id}>
                         <h3>{item.nombre}</h3>
-                        <img src={item.img} />
+                        <img src={item.img} style={{ width: "30%" }} />
                         <p>Cantidad: {item.cantidad}</p>
                         <p>Subotal: {item.cantidad * item.precio}</p>
                         <button onClick={() => removeItem(item.id)} className="btn btn-danger"><FaTrashAlt /></button>
